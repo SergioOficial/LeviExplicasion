@@ -12,7 +12,6 @@ Todos los comandos viven dentro de la carpeta `plugins/`. Para mantener el orden
 
 ```text
 plugins/
-├── admin/       # Comandos de administración de grupos (close, open, welcome, tag)
 ├── descargas/   # Descargas y multimedia (play, pinterest, tiktok, github)
 ├── economia/    # Sistema de dinero y juegos (work, daily, slots, dep)
 ├── fun/         # Comandos de diversión (meme, gato, trivia, 8ball)
@@ -23,7 +22,7 @@ plugins/
 ├── rpg/         # Aventura y experiencia (cazar, pescar, minar)
 ├── stickers/    # Creación de stickers (s, brat)
 ├── subbots/     # Sistema de sub-bots (code, jadibot)
-└── utils/       # Utilidades (traducir, clima, qr, tts)
+└── utils/       # Utilidades y Comandos de administración de grupos (traducir, clima, qr, tts, close, open, welcome, tag)
 ```
 
 Para crear un nuevo comando, simplemente crea un archivo .js dentro de la carpeta de su categoría correspondiente. El sistema (pluginLoader.js) lo detectará y cargará automáticamente.
